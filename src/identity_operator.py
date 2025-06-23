@@ -30,3 +30,19 @@ print("\n")
 # Example with a string
 text = "Hello, world!"
 print("world" in text)  # Output: True
+print("\n")
+
+
+print(round(3.14159))  # Output: 3
+print(round(2.71828))  # Output: 3
+
+print(round(3.14159, 2))  # Output: 3.14
+print(round(2.71828, 3))  # Output: 2.7187
+print(round(7.41)) #output 7
+print(round(7.5)) #output 8
+print(round(6.5)) #output 6, generally it return nearest even integer in such case
+print(round(674, -1)) #output 670, here it print the multiple of 10 but closest to the number so 670 is closest multiple if 671.
+print(round(574, -2)) #output 600, here make first two digit to 0 , then increment the first digit by 1
+print(round(674, -3)) #output 1000, since here we pass -3 as 2nd argument so it will print closest multiple of 1000
+print(round(665, -1)) #output 600, nearest even integer and multiple of 10
+print(round(675, -1)) #output 680, nearest even integer and multiple of 10
